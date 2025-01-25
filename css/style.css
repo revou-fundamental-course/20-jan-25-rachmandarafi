@@ -1,14 +1,85 @@
-.main {
+/* Ini File CSS */
+
+main {
     display: flex;
-    gap: 32px;
+    gap: 50px;
     padding: 32px;
+
+}
+
+.top-bar {
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 80px;
+    box-shadow: 0 0 3px 4px #4444;
+    background-color: white;
+}
+
+.container {
+    width: fit-content;
+    margin: auto;
+    margin-top: 80px;
+    background-blend-mode: color-burn;
+}
+
+footer {
+    text-align: center;
+}
+
+.main-header {
+    text-align: center;
+    text-shadow: 1.5px 1.5px 1.5px rgb(48, 45, 45);
+}
+
+input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+article {
+    text-align: justify;
+}
+
+form {
+    background-color: #9CCDDB;
+    padding: 32px;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 2px #4444;
 }
 
 .form-group {
     display: flex;
     flex-direction: column;
+    padding-bottom: 16px;
+}
+
+button {
+    border: none;
+    padding: 8px;
+    color: #D0D7E1;
+}
+
+.bg-hitung {
+    background-color: #064469;
+}
+
+.bg-reset {
+    background-color: #5790AB;
+}
+
+.result-section {
+    padding: 16px;
+    text-align: center;
+    background-color: #9CCDDB;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px 2px #4444;
 }
 
 #result-bmi {
     font-size: xxx-large;
+    font-family: math;
 }
