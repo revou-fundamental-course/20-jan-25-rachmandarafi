@@ -10,8 +10,8 @@ body {
 
 main {
     display: flex;
-    gap: 50px;
-    padding: 32px;
+    gap: 32px;
+    padding: 64px;
 
 }
 
@@ -91,4 +91,11 @@ button {
 #result-bmi {
     font-size: xxx-large;
     font-family: math;
+}
+
+
+@media only screen and (max-width : 600px) {
+    main {
+        flex-direction: column;
+    }
 }
