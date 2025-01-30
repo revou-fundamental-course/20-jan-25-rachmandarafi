@@ -199,7 +199,19 @@ button {
 @media only screen and (max-width: 768px) {
     main {
         flex-direction: column;
-        width: 90%;
+        width: 80%;
         padding: 32px;
+        margin: auto;
+        margin-top: 100px;
+        background-color: rgba(255, 255, 255, 0.5);
+        border-radius: 10px;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    }
+
+    body {
+        background-color: #eaeaea;
+        background-image: url(../img/mobile-bg.png);
+        height: 70vh;
+        margin-top: 80px;
     }
 }
